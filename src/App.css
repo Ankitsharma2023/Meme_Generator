@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  
+  background-image: url(../images/skeleton\,\ Berserk\,\ simple\ background\ _\ 1920x1080\ Wallpaper\ -\ wallhaven_cc.jpeg);
+  
+
+}
+
+.overall{
+background-color: white;
+height: 700px;
+width: 900px;
+margin: auto;
+margin-top: 70px;
+}
+
+
+.header{
+  background-color:purple;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width:100%;
+  height: 60px
+}
+
+.meme{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.content{
+  padding: 10px;
+  display: flex;
+  align-items: end;
+} 
+
+
+/* content k  liye ! */
+
+
+.content-1{
+  display: grid;
+  grid-template-columns: max-content;
+  gap: 30px;
+  margin-left: 20px;
+ padding: 60px;
+}
+
+.input_text{
+  
+ display: flex;
+ gap: 200px;
+ 
+ 
+} 
+
+.top{
+  font-size:20px;
+  border:purple solid ;
+  text-align: center;
+  height: 40px;
+
+
+
+
+}
+.bottom{
+  font-size: 20px;
+  font-size:20px;
+  border:purple solid;
+  text-align: center;
+  height: 40px;
+  
+  
+}
+
+.button{
+  height: 40px;
+  border-radius: 200px;
+  border: black solid;
+  font-size: 20px;
+  color: purple;
+}
+
+
